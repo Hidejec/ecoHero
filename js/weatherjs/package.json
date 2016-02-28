@@ -1,0 +1,82 @@
+{
+  "_args": [
+    [
+      "weather.js",
+      ""
+    ]
+  ],
+  "_from": "weather.js@*",
+  "_id": "weather.js@0.0.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/weather.js",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "weather.js",
+    "raw": "weather.js",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/weather.js/-/weather.js-0.0.2.tgz",
+  "_shasum": "201c0d53c19bedfaf42f21dbd3bc957caf57389d",
+  "_shrinkwrap": null,
+  "_spec": "weather.js",
+  "_where": "",
+  "author": {
+    "email": "noah@batteredoats.com",
+    "name": "Noah H. Smith",
+    "url": "http://noazark.github.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/noazark/weather/issues"
+  },
+  "dependencies": {},
+  "description": "Weather.js ==========",
+  "devDependencies": {
+    "coffee-script": "latest",
+    "expect.js": "latest",
+    "mocha": "latest",
+    "nock": "latest",
+    "sugar": "latest",
+    "uglify-js": "latest"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "201c0d53c19bedfaf42f21dbd3bc957caf57389d",
+    "tarball": "http://registry.npmjs.org/weather.js/-/weather.js-0.0.2.tgz"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "homepage": "http://weatherjs.com",
+  "keywords": [
+    "weather"
+  ],
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "noazark",
+      "email": "nsmith@rendergardenmedia.com"
+    }
+  ],
+  "name": "weather.js",
+  "optionalDependencies": {},
+  "readme": "Weather.js\n==========",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noazark/weather.git"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "version": "0.0.2"
+}

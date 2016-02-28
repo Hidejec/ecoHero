@@ -1,0 +1,137 @@
+/* Background image */
+body {
+  background-image: url(images/frontnew.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+
+}
+/*Navbar*/
+.navbar-custom {
+  background: #0f1f2b;
+}
+.setFont{
+font-family: 'Lato', sans-serif;
+}
+
+.nav.navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+  margin-top: 10px;
+}
+.navbar .navbar-nav li a {
+  color: white;
+  padding-top: 9px;
+  padding-bottom: 8px;
+  font-size: 16px;
+}
+
+.navbar .navbar-nav li a:hover i.fa.fa-map-signs  {
+  	color: #DEB887;
+}
+.navbar .navbar-nav li a:hover i.fa.fa-bicycle  {
+  	color: #32CD32;
+}
+.navbar .navbar-nav li a:hover i.fa.fa-fire  {
+  	color: #FF4500;
+}
+.navbar .navbar-nav li a:hover i.fa.fa-bolt  {
+  	color: #FFFF00;
+}
+.navbar .navbar-nav li a:hover i.fa.fa-exclamation-triangle  {
+  	color: #FF0000;
+}
+.navbar .navbar-nav li a:hover i.fa.fa-comments  {
+  	color: #0000A0;
+}
+.navbar .navbar-nav li a:hover i.fa.fa-users  {
+  	color: #00BFFF;
+}
+.navbar .navbar-nav li a:hover {
+  background: none;
+}
+.pull-left{
+  font-size: 30px;
+  color: white;
+  margin-top: 15px;
+}
+a.pull-left:hover {
+text-decoration: none;
+	color: #abdfd1;
+}
+.t {
+  font-size: 28px;
+}
+
+/* Buttons Navbar */
+.btn.outline {
+	background: none;
+	padding: 12px 22px;
+      width: 100px;
+}
+.btn-primary.outline {
+	border: 2px solid white;
+	color: white;
+  border-radius: 0;
+}
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+	color: #abdfd1;
+	border-color: #abdfd1;
+  border-radius: 0;
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+	border-color: #abdfd1;
+	color: #abdfd1;
+	box-shadow: none;
+  border-radius: 0;
+}
+.btn-sm, .btn-group-sm > .btn {
+	padding: 8px 12px;
+}
+.btn-sm.btn-default, .btn-sm.outline {
+	padding: 6px 10px;
+}
+#btn2{
+    margin-top: 0px;
+  margin-left: 55px;
+}
+
+
+/* End of Navbar*/
+div#background-top {
+text-align: center;
+}
+
+@-webkit-keyframes rotate {
+  from {
+  -webkit-transform: rotate(0deg);
+}
+to {
+  -webkit-transform: rotate(360deg);
+ }
+}
+img#fixedSize {
+  width: 250px;
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+  margin-top: 150px;
+
+    -webkit-animation-name:             rotate;
+     -webkit-animation-duration:        20s;
+     -webkit-animation-iteration-count: infinite;
+     -webkit-animation-timing-function: linear;
+}
+
+/* button text login register */
+.buttonText {
+  margin-left: 5px;
+}
+
+

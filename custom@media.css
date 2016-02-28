@@ -1,0 +1,60 @@
+
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+        
+    .container#navContainer {
+        width: auto;
+        
+    }
+    
+    #btn2 {
+      width: 100px;
+      margin-right: 20px;
+        margin-left: 5px;
+        transition: linear 0.2s;
+    }
+    
+    .glyphicon.glyphicon-pencil {
+        margin-left: 8px;
+    }
+    .glyphicon.glyphicon-user{
+      margin-left: 7px;
+    }
+
+    @media only screen and (min-width : 320px) and (max-width : 768px) {
+      .navbar .navbar-nav {
+        display: inline-block;
+
+      }
+      .navbar .navbar-collapse {
+        text-align: center;
+        margin-top: 10px;
+      }
+      .navbar .navbar-nav li a {
+        color: white;
+        padding-top: 5px;
+        padding-bottom: 8px;
+        font-size: 16px;
+        text-align: center;
+      }
+        
+
+        }
+
+    @media only screen and (min-width : 360px) and (max-width : 877px) {
+        .buttonText {
+            visibility: hidden;
+        }
+        #btn2 {
+            width: 50px;
+            margin-right: 50px;
+            transition: linear 0.2s;
+        }
+        
+    }
+    @media only screen and (min-width : 360px) and (max-width : 830px) {
+        #btn2 {
+            width: 50px;
+            transition: linear 0.2s;
+        }
+    }
+    
