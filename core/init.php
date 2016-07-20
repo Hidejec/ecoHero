@@ -25,6 +25,6 @@ else if($callTo == "logout"){
 @$current_page = @$_SERVER['SCRIPT_NAME'];
 @$referer = @$_SERVER['HTTP_REFERER'];
 
-require_once('/../functions/functions.php')
+require_once('functions/functions.php')
 
 ?>

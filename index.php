@@ -8,13 +8,13 @@
 	<link rel="stylesheet" href="style.css" />
 	<script src="/bootstrap/js/bootstrap.min.js"></script>
 	<script src="js/jquery.js"></script>
-    <script src="js/custom.js"></script>
-    <script src="js/weatherjs/weather.js"></script>
-    <script src="js/weather.js"></script>
-    <script src="js/sugar.js"></script>
-    <script src="Chartjs/Chart.js"></script>
-    <script src="http://openlayers.org/api/OpenLayers.js"></script>
-    <script src="http://openweathermap.org/js/OWM.OpenLayers.1.3.4.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/weatherjs/weather.js"></script>
+  <script src="js/weather.js"></script>
+  <script src="js/sugar.js"></script>
+  <script src="Chartjs/Chart.js"></script>
+  <script src="http://openlayers.org/api/OpenLayers.js"></script>
+  <script src="http://openweathermap.org/js/OWM.OpenLayers.1.3.4.js"></script>
     
 <head>
 <meta charset="utf-8">
